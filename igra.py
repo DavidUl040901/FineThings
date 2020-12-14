@@ -63,7 +63,6 @@ def main():
         all_sprites.update()
         # Вектор, ведущий от камеры к игроку.
         heading = player.pos - camera
-        # Follow the player with the camera.
         # Перемещение камеры на долю длины вектора.
         camera += heading * 0.05
         # Фактическое смещение, которое мы должны добавить к позициям объектов.
